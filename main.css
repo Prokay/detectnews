@@ -1,0 +1,58 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: black;
+    min-height: 60px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+.wrapper:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo{
+    float: left;
+    display: block;
+    padding: 15px 0 22px 0;
+}
+.top-menu{
+    float: left;
+    width: 840px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    
+}
+.top-menu li{
+    display: inline-block;
+    
+}
+.top-menu li a{
+    display: block;
+    padding: 15px 5px 15px 5px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.top-menu li a:hover{
+    box-shadow: 0 7px 0 0 #3164d4;
+}
+.account-menu{
+    float:right;
+    margin-top: 15px;
+}
+.account{
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url(images/account.png);
+}
